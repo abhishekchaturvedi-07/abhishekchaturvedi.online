@@ -33,7 +33,7 @@ const Services = () => {
         />
       </div>
       <p className="desktop:text-[40px] mobile:text-[24px] font-bold text-center mb-4">
-        You have a project? Get in Touch
+        Get in Touch!!!
       </p>
       <ContactBtn title={"Contact Me"} />
     </div>
