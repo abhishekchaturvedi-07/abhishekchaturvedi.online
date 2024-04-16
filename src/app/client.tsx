@@ -7,7 +7,6 @@ import { GlobalStateProvider } from "../contexts/GlobalStateContext";
 import Hero from "../components/layout/Hero";
 import Modal from "../components/layout/Modal";
 import Navbar from "../components/navigation/menu/Navbar";
-import Projects from "../components/layout/Projects";
 import React from "react";
 import Services from "../components/layout/Services";
 
