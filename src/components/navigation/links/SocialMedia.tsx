@@ -16,6 +16,7 @@ const SocialMedia = ({ size }: { size: number }) => {
           alt="Icon"
           width={size}
           height={size}
+          loading="lazy"
         />
       </a>
       <a
@@ -23,7 +24,13 @@ const SocialMedia = ({ size }: { size: number }) => {
         href="https://github.com/abhishekchaturvedi-07"
         target="_blank"
       >
-        <Image src="/icons/github.svg" alt="Icon" width={size} height={size} />
+        <Image
+          src="/icons/github.svg"
+          alt="Icon"
+          width={size}
+          height={size}
+          loading="lazy"
+        />
       </a>
       <a
         className="p-4 transition-all scale-100 bg-black bg-opacity-50 rounded-full hover:scale-110"

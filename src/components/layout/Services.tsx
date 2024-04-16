@@ -11,6 +11,7 @@ const Services = () => {
         className="w-full h-44"
         src="/transitions/transition_gradient.svg"
         alt="transition"
+        loading="lazy"
       />
       <p className="flex justify-center mt-8 mb-8 text-4xl font-bold text-white">
         Services

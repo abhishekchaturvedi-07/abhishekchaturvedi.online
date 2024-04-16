@@ -47,6 +47,7 @@ function Hero() {
             className="self-center object-contain mobile:w-full mobile:max-w-xl animate-scalepulse"
             alt="Portrait"
             quality={50}
+            loading="lazy"
           />
           {/* <img
             className="self-center object-contain mobile:w-full mobile:max-w-xl animate-scalepulse"

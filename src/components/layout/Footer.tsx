@@ -7,6 +7,7 @@ function Footer() {
         className="w-full h-44"
         src="/transitions/transition_grey.svg"
         alt="transition"
+        loading="lazy"
       />
       <div className="pt-5">
         <SocialMedia size={35} />

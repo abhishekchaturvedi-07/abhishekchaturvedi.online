@@ -8,6 +8,7 @@ const About = () => {
         className="w-full h-44"
         src="/transitions/transition_gradient.svg"
         alt="transition"
+        loading="lazy"
       />
       <div className="flex items-center justify-center flex-grow text-slate-100">
         <div className="flex flex-row w-full">
