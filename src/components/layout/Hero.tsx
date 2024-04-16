@@ -42,7 +42,7 @@ function Hero() {
         >
           <img
             className="self-center object-contain mobile:w-full mobile:max-w-xl animate-scalepulse"
-            src="/images/ac-thumbnail.png"
+            src="/images/ac-thumbnail.webp"
             alt="Portrait"
           />
         </motion.div>

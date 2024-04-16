@@ -17,18 +17,18 @@ const Services = () => {
       </p>
       <div className="flex justify-around flex-grow text-center desktop:flex-row mobile:flex-col mobile:items-center">
         <Service
-          hl="Single Page Applications"
-          desc="Development of responsive web apps such as portfolios, landingpages and dashboards"
+          hl="End-to-End Application Delivery Solutions"
+          desc="Includes the entire software lifecycle, from discussions, conception & development to deployment, monitoring, and maintenance for optimal performance."
           img="/icons/SPA_Icon.svg"
         />
         <Service
-          hl="API Integration"
-          desc="Seamless integration into your solution for dynamic content delivery"
+          hl="Highly Scalable & Cost Effective Solutions"
+          desc="In a cloud environment, highly scalable & cost-effective solutions utilize auto-scaling & pay-as-you-go models to efficiently manage resources & mainly expenses."
           img="/icons/API_Icon.svg"
         />
         <Service
-          hl="SEO Optimization"
-          desc="Enhancing visibility and rankings of your web application"
+          hl="Real Time Monitoring Dashboards"
+          desc="Real-time monitoring dashboards continuously track user activities, portal performance, and issues, facilitating rapid response and optimization for an uninterrupted user journey."
           img="/icons/SEO_Icon.svg"
         />
       </div>

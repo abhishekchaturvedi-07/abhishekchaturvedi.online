@@ -4,6 +4,11 @@ export const metadata: Metadata = {
   title: "Abhishek Chaturvedi | Fullstack Architect",
   description:
     "I'm a fullstack architect specialized in React.js, Next.js and Typescript who builds innovative web applications for desktop and mobile devices.",
+  icons: {
+    icon: ["/favicon.ico"],
+    apple: ["/apple-touch-icon.png"],
+    shortcut: ["/favicon-16x16.png"],
+  },
 };
 
 export default function RootLayout({
