@@ -3,6 +3,8 @@ import Link from "next/link";
 import Typing from "../static/Typing";
 import SocialMedia from "../navigation/links/SocialMedia";
 import Arrow from "../static/Arrow";
+import Image from "next/image";
+import thumbnail from "../../../public/images/ac-thumbnail.webp";
 
 const variants = {
   hidden: { opacity: 1, y: 0 },
@@ -40,11 +42,17 @@ function Hero() {
             ease: [0, 0.71, 0.2, 1.01],
           }}
         >
-          <img
+          <Image
+            src={thumbnail}
+            className="self-center object-contain mobile:w-full mobile:max-w-xl animate-scalepulse"
+            alt="Portrait"
+            quality={50}
+          />
+          {/* <img
             className="self-center object-contain mobile:w-full mobile:max-w-xl animate-scalepulse"
             src="/images/ac-thumbnail.webp"
             alt="Portrait"
-          />
+          /> */}
         </motion.div>
       </div>
       <div className="inset-0 z-10 flex items-end justify-center py-2 desktop:absolute desktop:bottom-10">
