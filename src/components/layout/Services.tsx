@@ -13,22 +13,22 @@ const Services = () => {
         alt="transition"
       />
       <p className="flex justify-center mt-8 mb-8 text-4xl font-bold text-white">
-        Services
+        Want to learn from the best?
       </p>
       <div className="flex justify-around flex-grow text-center desktop:flex-row mobile:flex-col mobile:items-center">
         <Service
-          hl="Single Page Applications"
-          desc="Development of responsive web apps such as portfolios, landingpages and dashboards"
+          hl="History of Web"
+          desc="Explore the evolution of web technologies, weighing pros and cons of each stage, from static to dynamic and modern web development."
           img="/icons/SPA_Icon.svg"
         />
         <Service
-          hl="API Integration"
-          desc="Seamless integration into your solution for dynamic content delivery"
+          hl="Best Architecture"
+          desc="Designing and implementing scalable, secure, and efficient system architectures. Includes micro frontend, microservice, caching, messaging queues, and serverless functions hosted in cloud environments."
           img="/icons/API_Icon.svg"
         />
         <Service
-          hl="SEO Optimization"
-          desc="Enhancing visibility and rankings of your web application"
+          hl="System Design Concepts"
+          desc="Applying system design patterns and principles to ensure scalability, reliability, and maintainability, including considerations for microservices architecture, event-driven design, and cloud-native infrastructure."
           img="/icons/SEO_Icon.svg"
         />
       </div>
